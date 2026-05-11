@@ -1,0 +1,16 @@
+name: Local Agents
+version: 1.0.0
+schema: v1
+models:
+  - name: qwen3.5:9b (local)
+    provider: ollama
+    model: qwen3.5
+    roles:
+      - chat
+      - edit
+      - apply
+  - name: qwen2.5-coder-7b (local)
+    provider: ollama
+    model: qwen2.5-coder-7b
+    roles:
+      - autocomplete

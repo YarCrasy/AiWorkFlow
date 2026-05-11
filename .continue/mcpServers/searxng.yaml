@@ -1,0 +1,13 @@
+name: searxng
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: searxng
+    command: mcp-searxng
+    env:
+      SEARXNG_URL: "http://searxng.local/search?q=<query>&format=json"
+    args:
+      - "--url"
+      - "http://searxng.local/search?q=<query>&format=json"
+      - "--user-agent"
+      - "Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0"
