@@ -47,7 +47,7 @@ sudo ./WorkflowSetup.sh
 ### Windows (PowerShell as Administrator)
 
 ```powershell
-./WorkflowSetup.ps1
+.\WorkflowSetup.ps1
 ```
 
 ## After Setup
